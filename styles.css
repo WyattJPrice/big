@@ -9,7 +9,12 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+}
+
+.addanimation {
+  animation-duration: 0.5s;
+  animation-name: theblink;
+  animation: theblink 0.5s linear infinite;
 }
 
 .restart {
@@ -18,3 +23,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@keyframes theblink {
+  from {
+    color: white;
+  }
+
+  to {
+    color: black;
+  }
