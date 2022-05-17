@@ -2,10 +2,12 @@
     font-family: 'Lato', sans-serif;
   }
 
-h1 {
+.output {
     font: 700 bold;
     font-size: x-large;
+    position: fixed;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     
 }
