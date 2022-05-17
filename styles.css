@@ -1,8 +1,11 @@
- @font-face {
-  font-family: 'MyWebFont';
-    src: url(/NimbusSanL-RegIta.otf);
-}
-  
-  * {
-    font-family: MywebFont;
+* {
+    font-family: 'Lato', sans-serif;
   }
+
+h1 {
+    font: 700 bold;
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    
+}
