@@ -9,12 +9,8 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.addanimation {
-  animation-duration: 0.5s;
-  animation-name: theblink;
-  animation: theblink 0.5s step-start infinite;
+    animation-name: theblink;
+    animation: theblink 0.5s step-start infinite;
 }
 
 .restart {
