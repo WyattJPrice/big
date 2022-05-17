@@ -14,7 +14,7 @@
 .addanimation {
   animation-duration: 0.5s;
   animation-name: theblink;
-  animation: theblink 0.001s infinite alternate;
+  animation: theblink 0.5s step-start infinite;
 }
 
 .restart {
@@ -25,10 +25,7 @@
 }
 
 @keyframes theblink {
-  from {
-    color: white;
-  }
-
-  to {
+  50% {
     color: black;
   }
+}
