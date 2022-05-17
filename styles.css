@@ -10,7 +10,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     animation-name: theblink;
-    animation: theblink 0.5s step-start infinite;
+    animation: theblink 1 step-start infinite;
 }
 
 .restart {
