@@ -1,8 +1,8 @@
-@font-face {
-    font-family: NimbusSanL;
-    src: url(nimbussanL-regita.otf);
-  }
+ @font-face {
+  font-family: 'MyWebFont';
+    src: url(/NimbusSanL-RegIta.otf);
+}
   
   * {
-    font-family: NimbusSanL;
+    font-family: MywebFont;
   }
